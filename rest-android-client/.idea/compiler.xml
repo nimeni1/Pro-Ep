@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="android-client-service_main" target="1.10" />
+      <module name="android-client-service_test" target="1.10" />
+      <module name="android-driver-service_main" target="1.10" />
+      <module name="android-driver-service_test" target="1.10" />
+      <module name="windows-admin-service_main" target="1.10" />
+      <module name="windows-admin-service_test" target="1.10" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/fare_completed_label"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_marginTop="133dp"
+        android:text="Fare Completed"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/price_label"
+        android:layout_width="100dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginBottom="180dp"
+        android:text="Final Price:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/actual_price_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fare_completed_label" />
+
+    <TextView
+        android:id="@+id/actual_price_label"
+        android:layout_width="48dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginBottom="180dp"
+        android:text="25"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/euro_label"
+        app:layout_constraintStart_toEndOf="@+id/price_label"
+        app:layout_constraintTop_toBottomOf="@+id/fare_completed_label" />
+
+    <TextView
+        android:id="@+id/euro_label"
+        android:layout_width="21dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginBottom="180dp"
+        android:text="€"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/actual_price_label"
+        app:layout_constraintTop_toBottomOf="@+id/fare_completed_label" />
+
+    <Button
+        android:id="@+id/button_back_to_main_menu"
+        style="@android:style/Widget.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="309dp"
+        android:layout_marginBottom="101dp"
+        android:background="@android:color/black"
+        android:text="Main Menu"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/white"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/fare_completed_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+</android.support.constraint.ConstraintLayout>

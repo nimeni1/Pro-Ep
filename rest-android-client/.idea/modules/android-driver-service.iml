@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="android-driver-service" external.linked.project.path="$MODULE_DIR$/../../android-driver-service" external.root.project.path="$MODULE_DIR$/../../android-driver-service" external.system.id="GRADLE" external.system.module.group="android-driver-service-gradle" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../android-driver-service">
+      <excludeFolder url="file://$MODULE_DIR$/../../android-driver-service/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../android-driver-service/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../android-driver-service/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android-client-service.iml" filepath="$PROJECT_DIR$/.idea/modules/android-client-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android-client-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/android-client-service_main.iml" group="android-client-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android-client-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/android-client-service_test.iml" group="android-client-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android-driver-service.iml" filepath="$PROJECT_DIR$/.idea/modules/android-driver-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android-driver-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/android-driver-service_main.iml" group="android-driver-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android-driver-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/android-driver-service_test.iml" group="android-driver-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/windows-admin-service.iml" filepath="$PROJECT_DIR$/.idea/modules/windows-admin-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/windows-admin-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/windows-admin-service_main.iml" group="windows-admin-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/windows-admin-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/windows-admin-service_test.iml" group="windows-admin-service" />
+    </modules>
+  </component>
+</project>
